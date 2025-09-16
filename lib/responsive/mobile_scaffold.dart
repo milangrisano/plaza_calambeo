@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_app/provider/page_provider.dart';
+import 'package:responsive_app/shared/appbar_button.dart';
 import 'package:responsive_app/shared/custom_drawer_header.dart';
 import 'package:responsive_app/shared/drawer_list_tile.dart';
 import 'package:responsive_app/ui/home_body.dart';
@@ -17,7 +18,7 @@ class MobileScaffold extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
-        title: const Text('Name Page'),
+        title: AppBarButton(),
         centerTitle: false,
       ),
       endDrawer: Drawer(
@@ -26,28 +27,53 @@ class MobileScaffold extends StatelessWidget {
             const CustomDrawerHeader(),
             DrawerListTile(
               icon: Icons.home,
-              name: const Text('Home'),
-              onPressed: ()=> pageProvider.goTo(0),              
+              name: const Text('Aventura Terra'),
+              onPressed: ()=> pageProvider.goTo(1),              
             ),
             DrawerListTile(
               icon: Icons.people,
-              name: const Text('About'),
-              onPressed: ()=> pageProvider.goTo(1),
-            ),
-            DrawerListTile(
-              icon: Icons.money,
-              name: const Text('Pricing'),
+              name: const Text('Berlin'),
               onPressed: ()=> pageProvider.goTo(2),
             ),
             DrawerListTile(
-              icon: Icons.mail_outline_outlined,
-              name: const Text('Contact'),
+              icon: Icons.money,
+              name: const Text('Chill House Nails'),
               onPressed: ()=> pageProvider.goTo(3),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
-              name: const Text('Location'),
+              icon: Icons.mail_outline_outlined,
+              name: const Text('Colibry Drinks'),
               onPressed: ()=> pageProvider.goTo(4),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Fiumicello'),
+              onPressed: ()=> pageProvider.goTo(5),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Oaxaca'),
+              onPressed: ()=> pageProvider.goTo(6),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Polleri Peruana'),
+              onPressed: ()=> pageProvider.goTo(7),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Potato City'),
+              onPressed: ()=> pageProvider.goTo(8),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Sin Cuchillos'),
+              onPressed: ()=> pageProvider.goTo(9),
+            ),
+            DrawerListTile(
+              icon: Icons.location_on,
+              name: const Text('Yummy'),
+              onPressed: ()=> pageProvider.goTo(10),
             ),
           ],
         ),

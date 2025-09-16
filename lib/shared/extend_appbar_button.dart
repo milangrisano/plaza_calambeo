@@ -19,7 +19,7 @@ class ExtendAppBarButton extends StatelessWidget {
         style: TextButton.styleFrom(
           foregroundColor: Colors.black,
           textStyle: const TextStyle(
-            fontSize: 22,
+            fontSize: 14,
             fontWeight: FontWeight.bold,
           )
           // disabledForegroundColor: Colors.red.withOpacity(0.38),

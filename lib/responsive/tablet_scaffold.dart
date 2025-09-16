@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_app/provider/page_provider.dart';
+import 'package:responsive_app/shared/appbar_button.dart';
 import 'package:responsive_app/shared/extend_appbar_icon.dart';
 import 'package:responsive_app/ui/home_body.dart';
 
@@ -15,7 +16,7 @@ class TabletScaffold extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
-        title: const Text('Name Page'),
+        title: AppBarButton(),
         actions:  [
           ExtendAppBarIcon(text: 'Home', onPressed: () =>pageProvider.goTo(0), icon: Icons.home,),
           ExtendAppBarIcon(text: 'About', onPressed: () => pageProvider.goTo(1), icon: Icons.people,),

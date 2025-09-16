@@ -5,7 +5,7 @@ import 'package:universal_html/html.dart' as html;
 class PageProvider extends ChangeNotifier {
   PageController scrollControler = PageController();
 
-  final List<String> _pages = ['home', 'about', 'pricing', 'contact', 'location'];
+  final List<String> _pages = ['Aventura Terra', 'Berlin', 'Chill House', 'Colibry Drinks', 'Fiumicello','Oaxaca','Polleria Peruana','Potato City','Sin Cuchillos','Yummy'];
 
   int _currentIndex = 0;
 

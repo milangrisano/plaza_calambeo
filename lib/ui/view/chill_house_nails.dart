@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class PricingView extends StatelessWidget {
-  const PricingView({super.key});
+class ChillHouseNails extends StatelessWidget {
+  const ChillHouseNails({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.pinkAccent,
+      color: Colors.purpleAccent,
       child: const Center(
         child: Text(
-          'PricingView',
+          'Chill House Nails',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 40

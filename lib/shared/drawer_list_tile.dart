@@ -8,7 +8,8 @@ class DrawerListTile extends StatelessWidget {
   const DrawerListTile({
     super.key,
     required this.icon,
-    required this.name, required this.onPressed
+    required this.name,
+    required this.onPressed
   });  
 
   @override

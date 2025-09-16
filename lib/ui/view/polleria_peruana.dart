@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class AboutView extends StatelessWidget {
-  const AboutView({super.key});
+class PolleriaPeruana extends StatelessWidget {
+  const PolleriaPeruana({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.orangeAccent,
+      color: Colors.limeAccent,
       child: const Center(
         child: Text(
-          'AboutView',
+          'Polleria Peruana',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 40

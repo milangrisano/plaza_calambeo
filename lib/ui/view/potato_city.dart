@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class ContactView extends StatelessWidget {
-  const ContactView({super.key});
+class PotatoCity extends StatelessWidget {
+  const PotatoCity({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.purpleAccent,
+      color: Colors.grey,
       child: const Center(
         child: Text(
-          'ContactView',
+          'Potato City',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 40

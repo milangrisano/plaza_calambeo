@@ -7,12 +7,12 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-
+      color: Colors.white,
       child: GridView.count(
-        // mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisCount: 5,
-        // mainAxisSpacing: 50,
+        mainAxisSpacing: 20,
         crossAxisSpacing: 30,
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 80),
         children: [
           CardHomeBright(
             page: 1,
@@ -25,6 +25,34 @@ class HomeView extends StatelessWidget {
           CardHomeBright(
             page: 3,
             logo: 'assets/logo/chill_house_nails.jpg',
+          ),
+          CardHomeBright(
+            page: 4,
+            logo: 'assets/logo/colibry_drinks.jpg',
+          ),
+          CardHomeBright(
+            page: 5,
+            logo: 'assets/logo/fiumicello.jpg',
+          ),
+          CardHomeBright(
+            page: 6,
+            logo: 'assets/logo/oaxaca.jpg',
+          ),
+          CardHomeBright(
+            page: 7,
+            logo: 'assets/logo/polleria_peruana.jpg',
+          ),
+          CardHomeBright(
+            page: 8,
+            logo: 'assets/logo/potato_city.jpg',
+          ),
+          CardHomeBright(
+            page: 9,
+            logo: 'assets/logo/sin_cuchillos.png',
+          ),
+          CardHomeBright(
+            page: 10,
+            logo: 'assets/logo/yummy.jpg',
           ),
         ],
       ),
