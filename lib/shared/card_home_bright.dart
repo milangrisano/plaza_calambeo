@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:responsive_app/Text/letters.dart';
 import 'package:responsive_app/provider/page_provider.dart';
 
 class CardHomeBright extends StatefulWidget {
