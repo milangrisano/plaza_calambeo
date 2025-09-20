@@ -14,7 +14,7 @@ class MobileScaffold extends StatelessWidget {
     final pageProvider = Provider.of<PageProvider>(context, listen: false);
     return Scaffold(
       extendBodyBehindAppBar: true,
-      backgroundColor: Colors.lightBlueAccent,
+      // backgroundColor: Colors.lightBlueAccent,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         automaticallyImplyLeading: false,
