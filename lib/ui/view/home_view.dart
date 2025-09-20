@@ -6,13 +6,17 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final currentWidth = MediaQuery.of(context).size.width;
     return Container(
       color: Colors.white,
       child: GridView.count(
-        crossAxisCount: 5,
-        mainAxisSpacing: 20,
+        crossAxisCount: currentWidth < 500 ? 2 : 5,
+        mainAxisSpacing: currentWidth < 500 ? 0 : 30,
         crossAxisSpacing: 30,
-        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 80),
+        padding: EdgeInsets.symmetric(
+          horizontal: 20,
+          vertical: currentWidth < 500 ? 120 : 80
+        ),
         children: [
           CardHomeBright(
             page: 1,

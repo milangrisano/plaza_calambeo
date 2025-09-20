@@ -7,8 +7,8 @@ class CustomDrawerHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const DrawerHeader(
-      child: Column(),
+    return DrawerHeader(
+      child: Image.asset('assets/logo/terraza_calambeo_small_logo.jpg'),
     );
   }
 }

@@ -51,27 +51,27 @@ class MobileScaffold extends StatelessWidget {
               onPressed: ()=> pageProvider.goTo(5),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
+              icon: Icons.ac_unit,
               name: const Text('Oaxaca'),
               onPressed: ()=> pageProvider.goTo(6),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
+              icon: Icons.add_road_rounded,
               name: const Text('Polleri Peruana'),
               onPressed: ()=> pageProvider.goTo(7),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
+              icon: Icons.airport_shuttle,
               name: const Text('Potato City'),
               onPressed: ()=> pageProvider.goTo(8),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
+              icon: Icons.bedtime_off_outlined,
               name: const Text('Sin Cuchillos'),
               onPressed: ()=> pageProvider.goTo(9),
             ),
             DrawerListTile(
-              icon: Icons.location_on,
+              icon: Icons.change_circle_rounded,
               name: const Text('Yummy'),
               onPressed: ()=> pageProvider.goTo(10),
             ),
