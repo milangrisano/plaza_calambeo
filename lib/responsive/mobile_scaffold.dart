@@ -57,7 +57,7 @@ class MobileScaffold extends StatelessWidget {
             ),
             DrawerListTile(
               icon: Icons.add_road_rounded,
-              name: const Text('Polleri Peruana'),
+              name: const Text('Polleria Peruana'),
               onPressed: ()=> pageProvider.goTo(7),
             ),
             DrawerListTile(

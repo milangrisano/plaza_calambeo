@@ -11,7 +11,7 @@ class AppBarButton extends StatelessWidget {
     return InkWell(
       onTap: () => pageProvider.goTo(0),
       hoverColor: Colors.blueGrey,
-      child: Image.asset('assets/logo/terraza_calambeo_small_logo.jpg'),
+      child: Image.asset('assets/logo/only_logo_calambeo2.png', scale: 2,),
     );
   }
 }
