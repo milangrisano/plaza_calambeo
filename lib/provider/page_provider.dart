@@ -13,7 +13,7 @@ class PageProvider extends ChangeNotifier {
     scrollControler = PageController( initialPage: getPageIndex(routeName));
     html.document.title = _pages[ getPageIndex(routeName)];
     scrollControler.addListener((){
-      final index = (scrollControler.page ?? 0).round();
+      final index = (scrollControler.page ?? 0).toInt();
       if( index != _currentIndex ){
         html.window.history.pushState(null, 'none', '#/${ _pages[index]}');
         _currentIndex = index;

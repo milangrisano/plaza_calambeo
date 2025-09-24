@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:responsive_app/provider/page_provider.dart';
 import 'package:responsive_app/ui/view/aventura_terra.dart';
 import 'package:responsive_app/ui/view/chill_house_nails.dart';
-import 'package:responsive_app/ui/view/fiumicello.dart';
+import 'package:responsive_app/ui/view/fiumicello/fiumicello.dart';
 import 'package:responsive_app/ui/view/potato_city.dart';
 import 'package:responsive_app/ui/view/sin_cuchillo.dart';
 import 'package:responsive_app/ui/view/home_view.dart';
@@ -22,7 +22,7 @@ class HomeBody extends StatelessWidget {
     return PageView(
       controller: pageProvider.scrollControler,
       scrollDirection: Axis.vertical,
-      children: const [
+      children: [
         HomeView(),
         AventuraTerra(),
         Berlin(),
