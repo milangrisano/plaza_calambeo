@@ -31,7 +31,7 @@ class TitleMenu extends StatelessWidget {
           children: [
             LettersBold(text: title),
             SizedBox(height: 3),
-            LettersJustify(text: explain, fontSize: 10,),
+            LettersJustify(text: explain, fontSize: 9,),
           ],
         ),
       ),

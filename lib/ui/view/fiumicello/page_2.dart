@@ -12,11 +12,6 @@ class Page2 extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       spacing: 10,
       children: [
-        Spacer(),
-        Image.asset(
-          'assets/logo/letter_fiumicello.png',
-          scale: 3,
-        ),
         TitleMenu(
           title: 'Quattro Formagi',
           explain:
