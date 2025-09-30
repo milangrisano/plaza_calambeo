@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_app/ui/view/fiumicello/page_1.dart';
 import 'package:responsive_app/ui/view/fiumicello/page_2.dart';
+import 'package:responsive_app/ui/view/fiumicello/page_3.dart';
 
 class FiumicelloWebSized extends StatelessWidget {
   const FiumicelloWebSized({super.key});
@@ -24,6 +25,7 @@ class FiumicelloWebSized extends StatelessWidget {
             children: [
               Expanded(child: Page1()),
               Expanded(child: Page2()),
+              Expanded(child: Page3()),
             ],
           ),
         ),

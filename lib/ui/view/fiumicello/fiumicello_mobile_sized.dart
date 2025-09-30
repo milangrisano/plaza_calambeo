@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_app/ui/view/fiumicello/page_1.dart';
 import 'package:responsive_app/ui/view/fiumicello/page_2.dart';
+import 'package:responsive_app/ui/view/fiumicello/page_3.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class FiumicelloMobileSized extends StatelessWidget {
@@ -26,6 +27,7 @@ class FiumicelloMobileSized extends StatelessWidget {
               children: [
                 Page1(),
                 Page2(),
+                Page3(),
               ],
             ),
           ),
@@ -33,7 +35,7 @@ class FiumicelloMobileSized extends StatelessWidget {
         SizedBox(height: 20),
         SmoothPageIndicator(
           controller: _controler,
-          count: 2,
+          count: 3,
           effect: ExpandingDotsEffect(activeDotColor: Colors.black),
         ),
         SizedBox(height: 50),

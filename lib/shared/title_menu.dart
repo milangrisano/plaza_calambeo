@@ -5,11 +5,13 @@ class TitleMenu extends StatelessWidget {
   final String title;
   final String explain;
   final Color color;
+  final double font;
   const TitleMenu({
     super.key,
     required this.title,
     required this.explain,
-    required this.color,
+    this.color = const Color.fromARGB(197, 246, 242, 204),
+    this.font = 12,
   });
 
   @override
@@ -31,7 +33,7 @@ class TitleMenu extends StatelessWidget {
           children: [
             LettersBold(text: title),
             SizedBox(height: 3),
-            LettersJustify(text: explain, fontSize: 9,),
+            LettersJustify(text: explain, fontSize: font,),
           ],
         ),
       ),
